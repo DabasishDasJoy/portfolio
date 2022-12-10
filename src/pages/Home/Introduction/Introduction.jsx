@@ -21,10 +21,12 @@ const Introduction = () => {
           target={"_blank"}
           href="https://drive.google.com/file/d/1_6YKqL6PbPJ4cWalHFezTsufF9gbXqC7/view?usp=sharing"
         >
-          <ButtonPrimary name={"Resume"}>{<FaDownload />}</ButtonPrimary>
+          <ButtonPrimary name={"Resume"}>
+            <FaDownload />
+          </ButtonPrimary>
         </a>
         <ButtonPrimary name={"Hire Me"}>
-          {<AiOutlineArrowRight />}
+          <AiOutlineArrowRight />
         </ButtonPrimary>
       </div>
     </div>
