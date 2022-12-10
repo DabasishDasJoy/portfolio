@@ -4,7 +4,7 @@ import { router } from "./routes/router";
 
 function App() {
   return (
-    <div>
+    <div className="font-poppins max-w-screen-2xl mx-auto relative">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

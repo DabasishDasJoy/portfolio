@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="nav-item flex items-center rounded-3xl">
         <p className="nav-text overflow-hidden">Blog</p>
-        <Link className="nav-icon rounded-[50%] p-2 bg-gray-300">
+        <Link to={"/blogs"} className="nav-icon rounded-[50%] p-2 bg-gray-300">
           <FaHome></FaHome>
         </Link>
       </div>
