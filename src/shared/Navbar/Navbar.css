@@ -8,7 +8,7 @@
   transition: background-color 0.5s ease-in-out;
 }
 .nav-item:hover {
-  background-color: antiquewhite;
+  background-color: #f52225;
 }
 
 .nav-item:hover .nav-text {

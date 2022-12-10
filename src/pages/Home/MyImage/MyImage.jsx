@@ -12,12 +12,12 @@ const MyImage = () => {
       <div className="border-r-[2px] -rotate-12 rounded-[50%] w-[550px] h-[550px] absolute top-20 -left-6   border-gray-500"></div>
 
       {/* Social Icons */}
-      <div className="z-50 rounded-[50%] w-[550px] h-[550px] absolute top-20 -left-6 text-white">
+      <div className="z-50 rounded-[50%] w-[550px] h-[550px] absolute top-20 -left-6 text-black">
         <a
           target={"_blank"}
           rel="noreferrer"
           href={"https://www.facebook.com/dabasishdas.joy/"}
-          className="cursor-pointer border rounded-[50%] p-3 absolute right-[90px] top-5 bg-primary"
+          className="cursor-pointer border rounded-[50%] p-3 absolute right-[90px] top-5 bg-gray-300"
         >
           <ImFacebook></ImFacebook>
         </a>
@@ -25,7 +25,7 @@ const MyImage = () => {
           target={"_blank"}
           rel="noreferrer"
           href={"https://www.facebook.com/dabasishdas.joy/"}
-          className="cursor-pointer border rounded-[50%] p-3 absolute -right-1 top-[150px] bg-primary"
+          className="cursor-pointer border rounded-[50%] p-3 absolute -right-1 top-[150px] bg-gray-300"
         >
           <ImLinkedin2></ImLinkedin2>
         </a>
@@ -33,7 +33,7 @@ const MyImage = () => {
           target={"_blank"}
           rel="noreferrer"
           href={"https://www.facebook.com/dabasishdas.joy/"}
-          className="cursor-pointer border rounded-[50%] p-3 absolute -right-3 top-[310px] bg-primary"
+          className="cursor-pointer border rounded-[50%] p-3 absolute -right-3 top-[310px] bg-gray-300"
         >
           <FiGithub></FiGithub>
         </a>

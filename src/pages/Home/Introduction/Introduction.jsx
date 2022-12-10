@@ -8,7 +8,7 @@ const Introduction = () => {
   return (
     <div className="text-white">
       <h3 className="text-2xl leading-8">
-        Hi, I am <span className="text-accent font-bold">Dabsish Das Joy</span>
+        Hi, I am <span className="text-primary font-bold">Dabsish Das Joy</span>
       </h3>
       <AnimationText></AnimationText>
       <p>
