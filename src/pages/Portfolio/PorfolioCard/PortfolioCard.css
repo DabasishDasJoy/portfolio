@@ -1,0 +1,30 @@
+.image-wrapper > .content {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.image-wrapper > img,
+.image-wrapper > .content {
+  transition: 200ms ease-in-out;
+}
+
+.image-wrapper:hover > img.blurred {
+  filter: blur(3px);
+}
+.image-wrapper:hover > img.gray {
+  filter: grayscale(1);
+}
+.image-wrapper:hover > img.zoom {
+  transform: scale(1.1);
+}
+.image-wrapper > .content.fade {
+  opacity: 0;
+}
+.image-wrapper:hover > .content.fade {
+  opacity: 1;
+}
+.image-wrapper > .content.slide-up {
+  transform: translateY(100%);
+}
+.image-wrapper:hover > .content.slide-up {
+  transform: translateY(0);
+}

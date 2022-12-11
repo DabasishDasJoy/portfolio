@@ -16,10 +16,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_76aufcm",
-        "template_6d9lyni",
+        process.env.REACT_APP_service_id,
+        process.env.REACT_APP_template_id,
         form.current,
-        "BZNDyEobaUKHURZSH"
+        process.env.REACT_APP_public_key
       )
       .then(
         (result) => {
@@ -37,7 +37,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="bg-secondary min-h-screen px-20 py-10">
+    <div className="bg-accent min-h-screen px-20 py-10">
       <PageTitle subtitle={"Contact Me"}>Let's Discuss</PageTitle>
 
       <section className="text-white flex my-10">

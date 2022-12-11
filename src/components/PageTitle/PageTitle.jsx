@@ -6,7 +6,7 @@ const PageTitle = ({ children, subtitle }) => {
       <p className="text-primary flex items-center gap-2">
         {subtitle} <hr className="w-10 border-primary opacity-90" />
       </p>
-      <h1 className="font-bold text-[55px] leading-[72px] text-white">
+      <h1 className="font-extrabold text-[55px] leading-[72px] text-white">
         {children}
       </h1>
     </div>
