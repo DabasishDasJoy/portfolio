@@ -2,7 +2,7 @@ import React from "react";
 
 const PageTitle = ({ children, subtitle }) => {
   return (
-    <div className="">
+    <div className="mb-5">
       <p className="text-primary flex items-center gap-2">
         {subtitle} <hr className="w-10 border-primary opacity-90" />
       </p>
