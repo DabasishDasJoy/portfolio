@@ -6,7 +6,11 @@ const Portfolio = () => {
   return (
     <div className="bg-secondary min-h-screen py-10 px-20">
       <PageTitle subtitle={"Portfolio"}>My Works</PageTitle>
-      <div className="grid">
+      <div className="grid grid-cols-3 gap-2">
+        <PortfolioCard></PortfolioCard>
+        <PortfolioCard></PortfolioCard>
+        <PortfolioCard></PortfolioCard>
+        <PortfolioCard></PortfolioCard>
         <PortfolioCard></PortfolioCard>
       </div>
     </div>
