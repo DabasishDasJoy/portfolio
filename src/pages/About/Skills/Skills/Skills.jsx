@@ -53,7 +53,7 @@ const Skills = () => {
   return (
     <section>
       <SectionTitle>Language & Skills</SectionTitle>
-      <div className="grid grid-cols-4 mx-auto gap-10">
+      <div className="grid grid-cols-5 mx-auto gap-5">
         {skills.map((sk, idx) => (
           <Skill key={idx} sk={sk}></Skill>
         ))}
