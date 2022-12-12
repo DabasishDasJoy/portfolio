@@ -7,7 +7,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="fixed flex flex-col gap-5 justify-center items-end right-5 top-0 bottom-0">
+    <div className="fixed z-50 flex flex-col gap-5 justify-center items-end right-5 top-0 bottom-0">
       <NavItem navigate="/" name={"Home"}>
         <FaHome />
       </NavItem>
