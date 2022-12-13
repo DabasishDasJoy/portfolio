@@ -1,7 +1,6 @@
 import React from "react";
-import { BiCategory, BiLink } from "react-icons/bi";
+import { BiLink } from "react-icons/bi";
 import { BsCodeSlash } from "react-icons/bs";
-import { CgFileDocument } from "react-icons/cg";
 import { FaCodeBranch } from "react-icons/fa";
 import { Autoplay } from "swiper";
 import SwiperCore, { Navigation, Pagination } from "swiper/core";
@@ -27,38 +26,49 @@ const PortfolioDetailsCard = ({
   },
 }) => {
   return (
-    <div className="relative flex flex-col gap-3 text-white p-5 rounded-md w-[800px] h-[700px] bg-accent overflow-y-scroll">
-      <div className="absolute top-0 right-0 px-4 py-2 border rounded-[50%]">
-        {children}
+    <div className="relative flex flex-col gap-5 text-white p-10 overflow-y-auto rounded-md w-[800px] h-[700px] bg-accent">
+      <div className="absolute top-0 right-0">{children}</div>
+
+      {/* heading */}
+      <div>
+        <h3 className="text-3xl text-white m-0">{projectTitle}</h3>
+        <p className="text-sm">{subtitle}</p>
       </div>
-      <h3 className="text-3xl text-white">{projectTitle}</h3>
-      <div className="flex  flex-col gap-2">
-        <small className="flex gap-2 items-center">
-          <CgFileDocument />
-          About: {subtitle}
-        </small>
-        <small className="flex gap-2 items-center">
-          <BiCategory />
-          Category:
-        </small>
+      <hr className="border-white" />
+
+      {/* Info */}
+      <div className="flex  flex-col gap-2 text-gray-300">
+        <div className="grid grid-cols-2 gap-2 ">
+          <small className="flex gap-2 items-center">
+            <BiLink />
+            Preview:{" "}
+            <a className="text-primary underline" href={preview}>
+              Live website
+            </a>
+          </small>
+          <small className="flex gap-2 items-center">
+            <BsCodeSlash />
+            GitHub Client:{" "}
+            <a className="text-primary underline" href={clientSide}>
+              View Source Code
+            </a>
+          </small>
+          <small className="flex gap-2 items-center">
+            <BsCodeSlash />
+            GitHub Server:{" "}
+            <a className="text-primary underline" href={serverSide}>
+              {" "}
+              View Source Code
+            </a>
+          </small>
+        </div>
         <small className="flex gap-2 items-center">
           <FaCodeBranch />
-          Tech Stack: {techologies}
-        </small>
-        <small className="flex gap-2 items-center">
-          <BiLink />
-          Preview: <a href={preview}>Live website</a>
-        </small>
-        <small className="flex gap-2 items-center">
-          <BsCodeSlash />
-          GitHub Client: <a href={clientSide}>View Source Code</a>
-        </small>
-        <small className="flex gap-2 items-center">
-          <BsCodeSlash />
-          GitHub Server: <a href={serverSide}> View Source Code</a>
+          Tech Stack: <span className="font-semibold">{techologies}</span>
         </small>
       </div>
 
+      {/* slider */}
       <div>
         <Swiper
           breakpoints={{
@@ -89,12 +99,16 @@ const PortfolioDetailsCard = ({
           ))}
         </Swiper>
       </div>
-      <div>{description}</div>
-      <div>
-        <h5 className="text-xl">Features: </h5>
-        <ul>
+
+      {/* Desc */}
+      <p className="text-sm text-gray-300">{description}</p>
+
+      {/* Features */}
+      <div className="text-gray-300">
+        <h5 className="text-md">Features: </h5>
+        <ul className=" text-sm">
           {features.map((feature) => (
-            <li>•{feature}</li>
+            <li className="">• {feature}</li>
           ))}
         </ul>
       </div>

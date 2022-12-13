@@ -1,5 +1,5 @@
 .image-wrapper > .content {
-  background: rgba(17, 19, 25, 0.5);
+  background: rgba(17, 19, 25, 0.7);
 }
 .image-wrapper > .content > .content-items > .title-bar {
   transition: 500ms ease-in;
@@ -10,7 +10,7 @@
   transition: 200ms ease-in-out;
 }
 .image-wrapper:hover > .content > .content-items {
-  transform: translateY(70%);
+  transform: translateY(150%);
 }
 
 .image-wrapper:hover > .content > .content-items > .title-bar {

@@ -72,7 +72,7 @@ const Contact = () => {
               href="https://www.facebook.com/dabasishdas.joy/"
               target={"_blank"}
               rel="noreferrer"
-              className="border p-3 rounded-full"
+              className="border hover:bg-primary transition-all delay-75 p-3 rounded-full"
             >
               <FaFacebookF />
             </a>
@@ -80,7 +80,7 @@ const Contact = () => {
               href="https://github.com/DabasishDasJoy"
               target={"_blank"}
               rel="noreferrer"
-              className="border p-3 rounded-full"
+              className="border hover:bg-primary transition-all delay-75 p-3 rounded-full"
             >
               <FiGithub />
             </a>
@@ -88,7 +88,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/dabasishjoy/"
               target={"_blank"}
               rel="noreferrer"
-              className="border p-3 rounded-full"
+              className="border hover:bg-primary transition-all delay-75 p-3 rounded-full"
             >
               <FaLinkedinIn />
             </a>

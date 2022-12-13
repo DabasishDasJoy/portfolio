@@ -17,20 +17,9 @@ const PortfolioCard = ({
       {/* content */}
       <div className="content slide-up fade absolute inset-0">
         <div className="content-items absolute left-7 right-7">
-          <h3 className="text-xl font-bold">{projectTitle}</h3>
+          <h3 className="text-2xl font-bold">{projectTitle}</h3>
           <hr className="title-bar border-white bg-white h-[3px]" />
-          <p className="text-sm my-2">{subtitle}</p>
-          <div className="flex gap-5">
-            <span className="text-xs rounded-full px-2 py-1 bg-primary text-white">
-              React
-            </span>
-            <span className="text-xs rounded-full px-2 py-1 bg-primary text-white">
-              React
-            </span>
-            <span className="text-xs rounded-full px-2 py-1 bg-primary text-white">
-              React
-            </span>
-          </div>
+          <p className="text-md my-2">{subtitle}</p>
         </div>
       </div>
     </div>

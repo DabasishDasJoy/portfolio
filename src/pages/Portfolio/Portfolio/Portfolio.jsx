@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div className="bg-secondary portfolio-wrapper min-h-screen py-10 px-20">
       <PageTitle subtitle={"Portfolio"}>My Works</PageTitle>
-      <div className="grid grid-cols-3 gap-5 py-10">
+      <div className="grid grid-cols-2 gap-5 py-10">
         {projects.map((project) => (
           <motion.div
             className="project-card"
@@ -35,10 +35,15 @@ const Portfolio = () => {
         {selectedId && (
           <motion.div
             layoutId={selectedId}
-            className="fixed project-details top-0 bottom-0 left-0 right-0  flex items-center justify-center backdrop-blur-sm bg-accent/5"
+            className="fixed project-details top-0 bottom-0 left-0 right-0  flex items-center justify-center backdrop-blur-sm bg-accent/50"
           >
             <PortfolioDetailsCard project={selectedProject}>
-              <button onClick={() => setSelectedId(null)}>X</button>
+              <button
+                className="px-4 py-2 hover:bg-primary border rounded-full"
+                onClick={() => setSelectedId(null)}
+              >
+                X
+              </button>
             </PortfolioDetailsCard>
           </motion.div>
         )}
