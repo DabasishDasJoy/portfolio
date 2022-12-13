@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "639882623e29ce6a6ffab51e",
+    "projectTitle": "UCritique Reviews",
+    "subtitle": "A personal service website of an individual",
+    "description": "An website application where user can find all the services of an individual doctor and give feedback. The website is a signle page application built with MERN stack technologies.",
+    "techologies": "HTML5, TailwindCSS, React.js, MongoDB,Node.js, Express.js",
+    "preview": "https://ucritique-reviews.web.app/",
+    "serverSide": "https://github.com/DabasishDasJoy/uCritique-reviews-server",
+    "clientSide": "https://github.com/DabasishDasJoy/uCritique-reviews-client",
+    "features": [
+      "Implemented basic OAuth email, google, and GitHub authentication using firebase for users account.",
+      "Node.js backend with Express.js to create Rest-API for getting data from the MongoDB server.",
+      "React Router Dom to navigate users to routes like creating service, viewing service details, and leaving a review for the specific service."
+    ],
+    "thumnail": "https://i.ibb.co/1mS8fWH/Screenshot-2022-12-13-192942.png",
+    "images": [
+      "https://i.ibb.co/6rNpQ4f/Screenshot-2022-12-13-193024.png",
+      "https://i.ibb.co/Cs0m0kG/Screenshot-2022-12-13-193055.png",
+      "https://i.ibb.co/16G0Fvz/Screenshot-2022-12-13-193148.png",
+      "https://i.ibb.co/60Xrk9c/Screenshot-2022-12-13-193248.png"
+    ]
+  },
+  {
+    "_id": "63988262490af8e7c4ba1c23",
+    "projectTitle": "Code Crate",
+    "subtitle": "Online Course Service Website",
+    "description": "An educational website where user can find online courses and enroll the course. In this digital world distant learning has become more popular. This application will help learners in terms of online education.",
+    "techologies": "HTML5, TailwindCSS, React.js, MongoDB,Node.js, Express.js",
+    "preview": "https://code-crate.web.app/",
+    "serverSide": "https://github.com/DabasishDasJoy/resales-utopia-server",
+    "clientSide": "https://github.com/DabasishDasJoy/code-crate-client",
+    "features": [
+      "User account OAuth authentication using firebase with JWT Token verification.",
+      "Integrated user location using React Leaflet.",
+      "Navigate users to services like available courses, FAQ, Blog, and checkout using react route dom."
+    ],
+    "thumnail": "https://i.ibb.co/yf5qQfy/Screenshot-2022-12-13-193647.png",
+    "images": [
+      "https://i.ibb.co/5YjNyZQ/Screenshot-2022-12-13-193721.png",
+      "https://i.ibb.co/X3MfWYp/Screenshot-2022-12-13-193740.png",
+      "https://i.ibb.co/s6NT7P1/Screenshot-2022-12-13-193754.png",
+      "https://i.ibb.co/6sY6tjZ/Screenshot-2022-12-13-193808.png"
+    ]
+  },
+  {
+    "_id": "639882621ed0b479112d358c",
+    "projectTitle": "Resales Utopia",
+    "subtitle": "Used Camera Resale Market",
+    "description": "An e-commerce website where individually user, seller and buyer can sell, buy or manage products. The website is built with MERN technologies.",
+    "techologies": "HTML5, TailwindCSS, React.js, MongoDB,Node.js, Express.js",
+    "preview": "https://resales-utopia-4e5ef.web.app/",
+    "serverSide": "https://github.com/DabasishDasJoy/resales-utopia-server",
+    "clientSide": "https://github.com/DabasishDasJoy/resales-utopia-client",
+    "features": [
+      "Integrated OAuth authentication email and using firebase JWT Token verification.",
+      "Node.js backend with Express.js to create Rest-API for getting data from MongoDB database and Stripe payment for checkout.",
+      "Admin, buyer, and seller management roles for different routes."
+    ],
+    "thumnail": "https://i.ibb.co/BrhqcZM/Screenshot-2022-12-13-194040.png",
+    "images": [
+      "https://i.ibb.co/Hpy6cDq/Screenshot-2022-12-13-194114.png",
+      "https://i.ibb.co/jz1RHtB/Screenshot-2022-12-13-194148.png",
+      "https://i.ibb.co/P6L0GGz/Screenshot-2022-12-13-194205.png",
+      "https://i.ibb.co/G329PJt/Screenshot-2022-12-13-194228.png"
+    ]
+  }
+]

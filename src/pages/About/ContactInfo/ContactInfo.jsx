@@ -8,7 +8,7 @@ const ContactInfo = () => {
   return (
     <section className="grid grid-cols-2 gap-20 my-10">
       {/* image */}
-      <div className="">
+      <div data-aos="fade-right" data-aos-duration="1000">
         <img
           src={img}
           alt=""
@@ -17,7 +17,11 @@ const ContactInfo = () => {
       </div>
 
       {/* Informations */}
-      <div className="text-white flex flex-col gap-5">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        className="text-white flex flex-col gap-5"
+      >
         {/* Intro */}
         <div>
           <h4 className="font-semibold text-2xl leading-10">

@@ -1,4 +1,5 @@
 import emailjs from "@emailjs/browser";
+import { motion, useIsPresent } from "framer-motion";
 import React, { useRef } from "react";
 import { FaFacebookF, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -10,6 +11,7 @@ import PageTitle from "../../../components/PageTitle/PageTitle";
 
 const Contact = () => {
   const form = useRef();
+  const isPresent = useIsPresent();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -40,7 +42,11 @@ const Contact = () => {
     <div className="bg-accent min-h-screen px-20 py-10">
       <PageTitle subtitle={"Contact Me"}>Let's Discuss</PageTitle>
 
-      <section className="text-white flex my-10">
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="600"
+        className="text-white flex my-10"
+      >
         <div className="flex flex-col gap-5 text-sm">
           <h6 className="text-xl font-bold">Please Feel Free to Let Me Know</h6>
           <p className="">
@@ -135,6 +141,13 @@ const Contact = () => {
           </div>
         </form>
       </section>
+      <motion.div
+        initial={{ scaleX: 1 }}
+        animate={{ scaleX: 0, transition: { duration: 0.3, ease: "circOut" } }}
+        exit={{ scaleX: 1, transition: { duration: 0.3, ease: "circIn" } }}
+        style={{ originX: isPresent ? 0 : 1 }}
+        className="absolute top-0 left-0 right-0 bottom-0 bg-accent z-10"
+      />
     </div>
   );
 };

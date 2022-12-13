@@ -37,7 +37,7 @@
   opacity: 1;
 }
 .image-wrapper > .content.slide-up {
-  transform: translateY(85%);
+  transform: translateY(84%);
 }
 .image-wrapper:hover > .content.slide-up {
   transform: translateY(0);

@@ -1,21 +1,39 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa";
 import ButtonPrimary from "../../../components/ButtonPrimary/ButtonPrimary";
 import AnimationText from "../AminationText/AnimationText";
 
+const visible = { opacity: 1, y: 0, transition: { duration: 0.8 } };
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 10 },
+  visible,
+};
+
 const Introduction = () => {
   return (
-    <div className="text-white">
-      <h3 className="text-2xl leading-8">
+    <motion.div className="text-white">
+      <motion.h3
+        variants={{
+          hidden: { opacity: 0, x: -100 },
+          visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+        }}
+        className="text-2xl leading-8"
+      >
         Hi, I am <span className="text-primary font-bold">Dabsish Das Joy</span>
-      </h3>
-      <AnimationText></AnimationText>
-      <p>
+      </motion.h3>
+
+      <motion.div variants={itemVariants}>
+        <AnimationText></AnimationText>
+      </motion.div>
+      <motion.p variants={itemVariants}>
         I am passionate about building excellent software that improves <br />{" "}
         the lives of those around me.
-      </p>
-      <div className="flex gap-5 mt-10">
+      </motion.p>
+
+      <motion.div variants={itemVariants} className="flex gap-5 mt-10">
         <a
           rel="noreferrer"
           target={"_blank"}
@@ -28,8 +46,8 @@ const Introduction = () => {
         <ButtonPrimary name={"Hire Me"}>
           <AiOutlineArrowRight />
         </ButtonPrimary>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

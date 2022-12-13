@@ -1,11 +1,15 @@
 import React from "react";
 import { GoBriefcase } from "react-icons/go";
-
 const EducationCard = ({
   education: { duration, major, institute, location },
 }) => {
   return (
-    <div className="border-l relative px-6">
+    <div
+      data-aos="zoom-in-right"
+      data-aos-duration="600"
+      className="border-l relative px-6"
+    >
+      {/* {animate || (!animat  e && setAnimate(!animate))} */}
       <div className="absolute -top-1 left-[-20px] border rounded-full p-2 bg-primary">
         <GoBriefcase />
       </div>

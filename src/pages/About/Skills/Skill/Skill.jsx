@@ -2,7 +2,10 @@ import React from "react";
 
 const Skill = ({ sk: { title, image } }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 rounded-md py-3 ">
+    <div
+      data-aos="zoom-in-right"
+      className="flex flex-col items-center justify-center gap-2 rounded-md py-3 "
+    >
       <img
         src={image}
         alt=""

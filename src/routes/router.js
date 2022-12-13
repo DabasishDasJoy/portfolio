@@ -30,6 +30,9 @@ export const router = createBrowserRouter([
       },
       {
         path: "/portfolio",
+        loader: () => {
+          return fetch("projects.json");
+        },
         element: <Portfolio></Portfolio>,
       },
     ],
