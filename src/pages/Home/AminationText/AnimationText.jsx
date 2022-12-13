@@ -14,7 +14,8 @@ const AnimationText = () => {
         1000,
       ]}
       speed={50} // Custom Speed from 1-99 - Default Speed: 40
-      style={{ fontSize: "3rem", fontWeight: "bold" }}
+      className="text-2xl font-bold lg:my-5 my-2 lg:text-[3rem]"
+      // style={{ fontSize: "3rem", fontWeight: "bold" }}
       wrapper="h1" // Animation will be rendered as a <span>
       repeat={Infinity} // Repeat this Animation Sequence infinitely
     />

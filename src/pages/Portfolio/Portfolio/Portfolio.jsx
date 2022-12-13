@@ -13,9 +13,9 @@ const Portfolio = () => {
   const projects = useLoaderData();
 
   return (
-    <div className="bg-secondary portfolio-wrapper min-h-screen py-10 px-20">
+    <div className="bg-secondary portfolio-wrapper min-h-screen lg:py-10 px-2 py-5 lg:px-20">
       <PageTitle subtitle={"Portfolio"}>My Works</PageTitle>
-      <div className="grid grid-cols-2 gap-5 py-10">
+      <div className="grid lg:grid-cols-2 gap-5 lg:py-10">
         {projects.map((project) => (
           <motion.div
             className="project-card"
@@ -48,14 +48,6 @@ const Portfolio = () => {
           </motion.div>
         )}
       </AnimatePresence>
-
-      <motion.div
-        initial={{ scaleX: 1 }}
-        animate={{ scaleX: 0, transition: { duration: 0.3, ease: "circOut" } }}
-        exit={{ scaleX: 1, transition: { duration: 0.3, ease: "circIn" } }}
-        style={{ originX: isPresent ? 0 : 1 }}
-        className="absolute top-0 left-0 right-0 bottom-0 bg-accent z-10"
-      />
     </div>
   );
 };

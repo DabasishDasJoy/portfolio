@@ -39,15 +39,15 @@ const Contact = () => {
       );
   };
   return (
-    <div className="bg-accent min-h-screen px-20 py-10">
+    <div className="bg-accent min-h-screen lg:px-20 px-2 py-5 lg:py-10">
       <PageTitle subtitle={"Contact Me"}>Let's Discuss</PageTitle>
 
-      <section
-        data-aos="fade-up"
-        data-aos-duration="600"
-        className="text-white flex my-10"
-      >
-        <div className="flex flex-col gap-5 text-sm">
+      <section className="text-white flex lg:flex-row flex-col gap-5 my-10">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="600"
+          className="flex flex-col gap-5 text-sm "
+        >
           <h6 className="text-xl font-bold">Please Feel Free to Let Me Know</h6>
           <p className="">
             If you have any queries, please feel free to let me know.
@@ -95,9 +95,11 @@ const Contact = () => {
           </div>
         </div>
         <form
+          data-aos="fade-left"
+          data-aos-duration="600"
           ref={form}
           onSubmit={sendEmail}
-          className=" flex flex-col w-full px-10"
+          className=" flex flex-col w-full lg:px-10"
         >
           <div className="grid grid-cols-6 gap-5 text-white">
             <div className="col-span-full sm:col-span-3">

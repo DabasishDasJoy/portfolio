@@ -26,8 +26,8 @@ const PortfolioDetailsCard = ({
   },
 }) => {
   return (
-    <div className="relative flex flex-col gap-5 text-white p-10 overflow-y-auto rounded-md w-[800px] h-[700px] bg-accent">
-      <div className="absolute top-0 right-0">{children}</div>
+    <div className="relative flex flex-col gap-5 text-white lg:p-10 px-2 py-5 overflow-y-auto rounded-md lg:w-[900px] lg:h-[700px] h-[800px] bg-accent">
+      <div className="absolute top-1 right-1">{children}</div>
 
       {/* heading */}
       <div>
@@ -38,7 +38,7 @@ const PortfolioDetailsCard = ({
 
       {/* Info */}
       <div className="flex  flex-col gap-2 text-gray-300">
-        <div className="grid grid-cols-2 gap-2 ">
+        <div className="grid lg:grid-cols-2 gap-2 ">
           <small className="flex gap-2 items-center">
             <BiLink />
             Preview:{" "}
@@ -71,22 +71,22 @@ const PortfolioDetailsCard = ({
       {/* slider */}
       <div>
         <Swiper
-          breakpoints={{
-            // when window width is >= 640px
-            640: {
-              width: 640,
-              slidesPerView: 1,
-            },
-            // when window width is >= 768px
-            768: {
-              width: 768,
-              slidesPerView: 1,
-            },
-            1280: {
-              width: 1290,
-              slidesPerView: 1,
-            },
-          }}
+          // breakpoints={{
+          //   // when window width is >= 640px
+          //   640: {
+          //     width: 640,
+          //     slidesPerView: 1,
+          //   },
+          //   // when window width is >= 768px
+          //   768: {
+          //     width: 768,
+          //     slidesPerView: 1,
+          //   },
+          //   1280: {
+          //     width: 1290,
+          //     slidesPerView: 1,
+          //   },
+          // }}
           spaceBetween={5}
           autoplay
           navigation

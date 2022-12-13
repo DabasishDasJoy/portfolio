@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-import img from "../../../assets/IMG_5524.jpg";
+import img from "../../../assets/IMG_5524-min.jpg";
 import ButtonPrimary from "../../../components/ButtonPrimary/ButtonPrimary";
 import PersonalInfoOption from "../../../components/PersonalInfoOption/PersonalInfoOption";
 

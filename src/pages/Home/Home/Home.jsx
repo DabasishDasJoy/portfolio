@@ -12,7 +12,7 @@ const Home = () => {
       animate={"visible"}
       exit={{ opacity: 0, transition: { duration: 1 } }}
       variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
-      className="min-h-screen bg-black grid gap-10 px-5 lg:grid-cols-7 overflow-hidden"
+      className="min-h-screen bg-accent grid gap-10 px-5 lg:grid-cols-7 overflow-hidden"
     >
       <motion.div
         variants={{
@@ -28,11 +28,11 @@ const Home = () => {
         <Introduction></Introduction>
       </div>
       <motion.div
-        initial={{ scaleX: 1 }}
-        animate={{ scaleX: 0, transition: { duration: 0.3, ease: "circOut" } }}
-        exit={{ scaleX: 1, transition: { duration: 0.3, ease: "circIn" } }}
+        initial={{ scaleY: 1 }}
+        animate={{ scaleY: 0, transition: { duration: 0.5, ease: "circOut" } }}
+        exit={{ scaleY: 1, transition: { duration: 0.5, ease: "circIn" } }}
         style={{ originX: isPresent ? 0 : 1 }}
-        className="absolute top-0 left-0 right-0 bottom-0 bg-accent z-10"
+        className="absolute top-0 left-0 right-0 bottom-0 bg-secondary z-10"
       />
     </motion.div>
   );

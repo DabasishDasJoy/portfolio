@@ -22,7 +22,8 @@ const Introduction = () => {
         }}
         className="text-2xl leading-8"
       >
-        Hi, I am <span className="text-primary font-bold">Dabsish Das Joy</span>
+        Hi, <br /> I am{" "}
+        <span className="text-primary font-bold">Dabsish Das Joy</span>
       </motion.h3>
 
       <motion.div variants={itemVariants}>
@@ -33,7 +34,7 @@ const Introduction = () => {
         the lives of those around me.
       </motion.p>
 
-      <motion.div variants={itemVariants} className="flex gap-5 mt-10">
+      <motion.div variants={itemVariants} className="flex lg:gap-5 gap-5 mt-10">
         <a
           rel="noreferrer"
           target={"_blank"}
