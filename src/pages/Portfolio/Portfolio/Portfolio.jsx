@@ -1,4 +1,4 @@
-import { AnimatePresence, motion, useIsPresent } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import PageTitle from "../../../components/PageTitle/PageTitle";
@@ -8,7 +8,6 @@ import PortfolioDetailsCard from "../PortfolioDetailsCard/PortfolioDetailsCard";
 const Portfolio = () => {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedProject, setSelectedProject] = useState({});
-  const isPresent = useIsPresent();
 
   const projects = useLoaderData();
 
