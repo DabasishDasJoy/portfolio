@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { FaBars, FaBloggerB, FaHome, FaUserAlt } from "react-icons/fa";
+import {
+  FaBars,
+  FaBloggerB,
+  FaFacebookF,
+  FaHome,
+  FaLinkedinIn,
+  FaUserAlt,
+} from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 import { GoBriefcase } from "react-icons/go";
 import { IoIosMail } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
@@ -54,6 +62,36 @@ const Navbar = () => {
           <Link to={"/portfolio"}>Portfolio</Link>
           <Link to={"/contact"}>Contact</Link>
           <Link to={"/blogs"}>Blogs</Link>
+        </div>
+
+        <div>
+          <p className="text-center my-5">Find me in:</p>
+          <div className="flex gap-10 justify-center">
+            <a
+              href="https://www.facebook.com/dabasishdas.joy/"
+              target={"_blank"}
+              rel="noreferrer"
+              className="hover:bg-primary transition-all delay-75  rounded-full"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://github.com/DabasishDasJoy"
+              target={"_blank"}
+              rel="noreferrer"
+              className=" hover:bg-primary transition-all delay-75 rounded-full"
+            >
+              <FiGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dabasishjoy/"
+              target={"_blank"}
+              rel="noreferrer"
+              className=" hover:bg-primary transition-all delay-75  rounded-full"
+            >
+              <FaLinkedinIn />
+            </a>
+          </div>
         </div>
       </div>
     </div>
