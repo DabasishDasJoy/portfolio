@@ -32,7 +32,7 @@ const PortfolioDetailsCard = ({
       {/* heading */}
       <div>
         <h3 className="text-3xl text-white m-0">{projectTitle}</h3>
-        <p className="text-sm">{subtitle}</p>
+        <h5 className="text-sm">{subtitle}</h5>
       </div>
       <hr className="border-white" />
 
