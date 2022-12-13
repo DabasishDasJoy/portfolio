@@ -8,7 +8,7 @@ import Skills from "../Skills/Skills/Skills";
 const About = () => {
   const isPresent = useIsPresent();
   return (
-    <motion.div className="bg-accent min-h-screen px-20 py-10">
+    <motion.div className="bg-accent min-h-screen lg:px-20 px-2 lg:py-10 py-5">
       {/* header */}
 
       <PageTitle subtitle="Resume">About Me</PageTitle>

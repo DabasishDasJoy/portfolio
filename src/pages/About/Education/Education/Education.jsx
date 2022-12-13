@@ -26,7 +26,7 @@ const Education = () => {
   return (
     <div className="text-white">
       <SectionTitle>Education</SectionTitle>
-      <div className="mx-10 grid grid-cols-2 gap-10">
+      <div className="mx-10 grid lg:grid-cols-2 gap-10">
         {educationDetails.map((education, idx) => (
           <EducationCard key={idx} education={education}></EducationCard>
         ))}

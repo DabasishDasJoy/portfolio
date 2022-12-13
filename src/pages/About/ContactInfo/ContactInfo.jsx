@@ -6,7 +6,7 @@ import PersonalInfoOption from "../../../components/PersonalInfoOption/PersonalI
 
 const ContactInfo = () => {
   return (
-    <section className="grid grid-cols-2 gap-20 my-10">
+    <section className="grid lg:grid-cols-2 lg:gap-20 gap-5 my-10">
       {/* image */}
       <div data-aos="fade-right" data-aos-duration="1000">
         <img
@@ -45,7 +45,7 @@ const ContactInfo = () => {
           <h5 className="uppercase font-semibold text-md leading-7">
             Personal Info
           </h5>
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2">
             <PersonalInfoOption field="Name">
               Dabasish Das Joy
             </PersonalInfoOption>

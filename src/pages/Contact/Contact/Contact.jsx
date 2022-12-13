@@ -43,7 +43,7 @@ const Contact = () => {
       <PageTitle subtitle={"Contact Me"}>Let's Discuss</PageTitle>
 
       <section
-        data-aos="zoom-in"
+        data-aos="fade-up"
         data-aos-duration="600"
         className="text-white flex my-10"
       >
