@@ -13,12 +13,12 @@
       "Node.js backend with Express.js to create Rest-API for getting data from the MongoDB server.",
       "React Router Dom to navigate users to routes like creating service, viewing service details, and leaving a review for the specific service."
     ],
-    "thumnail": "https://i.ibb.co/1mS8fWH/Screenshot-2022-12-13-192942.png",
+    "thumnail": "https://i.ibb.co/n8wc7Ns/Screenshot-2022-12-13-192942-min.png",
     "images": [
-      "https://i.ibb.co/6rNpQ4f/Screenshot-2022-12-13-193024.png",
-      "https://i.ibb.co/Cs0m0kG/Screenshot-2022-12-13-193055.png",
-      "https://i.ibb.co/16G0Fvz/Screenshot-2022-12-13-193148.png",
-      "https://i.ibb.co/60Xrk9c/Screenshot-2022-12-13-193248.png"
+      "https://i.ibb.co/6vRbtkg/Screenshot-2022-12-13-193024-min.png",
+      "https://i.ibb.co/64hdcDy/Screenshot-2022-12-13-193055-min.png",
+      "https://i.ibb.co/8mx7gNV/Screenshot-2022-12-13-193148-min.png",
+      "https://i.ibb.co/kXRbw0F/Screenshot-2022-12-13-193248-min.png"
     ]
   },
   {
@@ -35,12 +35,12 @@
       "Integrated user location using React Leaflet.",
       "Navigate users to services like available courses, FAQ, Blog, and checkout using react route dom."
     ],
-    "thumnail": "https://i.ibb.co/yf5qQfy/Screenshot-2022-12-13-193647.png",
+    "thumnail": "https://i.ibb.co/BKHG581/Screenshot-2022-12-13-193647-min.png",
     "images": [
-      "https://i.ibb.co/5YjNyZQ/Screenshot-2022-12-13-193721.png",
-      "https://i.ibb.co/X3MfWYp/Screenshot-2022-12-13-193740.png",
-      "https://i.ibb.co/s6NT7P1/Screenshot-2022-12-13-193754.png",
-      "https://i.ibb.co/6sY6tjZ/Screenshot-2022-12-13-193808.png"
+      "https://i.ibb.co/87BYp1P/Screenshot-2022-12-13-193721-min.png",
+      "https://i.ibb.co/k1SyxbF/Screenshot-2022-12-13-193740-min.png",
+      "https://i.ibb.co/ysqBfXR/Screenshot-2022-12-13-193754-min.png",
+      "https://i.ibb.co/9ZfZdxy/Screenshot-2022-12-13-193808-min.png"
     ]
   },
   {
@@ -57,12 +57,12 @@
       "Node.js backend with Express.js to create Rest-API for getting data from MongoDB database and Stripe payment for checkout.",
       "Admin, buyer, and seller management roles for different routes."
     ],
-    "thumnail": "https://i.ibb.co/BrhqcZM/Screenshot-2022-12-13-194040.png",
+    "thumnail": "https://i.ibb.co/NmmpYX3/Screenshot-2022-12-13-194040-min.png",
     "images": [
-      "https://i.ibb.co/Hpy6cDq/Screenshot-2022-12-13-194114.png",
-      "https://i.ibb.co/jz1RHtB/Screenshot-2022-12-13-194148.png",
-      "https://i.ibb.co/P6L0GGz/Screenshot-2022-12-13-194205.png",
-      "https://i.ibb.co/G329PJt/Screenshot-2022-12-13-194228.png"
+      "https://i.ibb.co/7xDbVsL/Screenshot-2022-12-13-194114-min.png",
+      "https://i.ibb.co/4spV1zp/Screenshot-2022-12-13-194148-min.png",
+      "https://i.ibb.co/HG7XZfq/Screenshot-2022-12-13-194205-min.png",
+      "https://i.ibb.co/Rh289nD/Screenshot-2022-12-13-194228-min.png"
     ]
   }
 ]
