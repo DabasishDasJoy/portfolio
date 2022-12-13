@@ -7,6 +7,7 @@ const PortfolioCard = ({
   return (
     <div
       data-aos="fade-right"
+      data-aos-duration="600"
       className="image-wrapper relative overflow-hidden rounded-md text-white"
     >
       <img
