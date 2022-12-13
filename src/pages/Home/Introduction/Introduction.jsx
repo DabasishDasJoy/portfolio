@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import ButtonPrimary from "../../../components/ButtonPrimary/ButtonPrimary";
 import AnimationText from "../AminationText/AnimationText";
 
@@ -44,9 +45,11 @@ const Introduction = () => {
             <FaDownload />
           </ButtonPrimary>
         </a>
-        <ButtonPrimary name={"Hire Me"}>
-          <AiOutlineArrowRight />
-        </ButtonPrimary>
+        <Link to={"/contact"}>
+          <ButtonPrimary name={"Hire Me"}>
+            <AiOutlineArrowRight />
+          </ButtonPrimary>
+        </Link>
       </motion.div>
     </motion.div>
   );

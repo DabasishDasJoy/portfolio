@@ -15,3 +15,7 @@
   max-width: 300px;
   padding: 0 10px;
 }
+
+.menu-bar {
+  transition: 200ms ease-in-out;
+}

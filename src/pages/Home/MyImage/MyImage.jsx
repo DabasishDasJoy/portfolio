@@ -13,12 +13,12 @@ const MyImage = () => {
         <div className="border-r-[2px] -rotate-12 rounded-[50%] lg:w-[550px] w-[300px] h-[300px] lg:h-[550px] absolute lg:top-20 top-10 lg:-left-6 -left-1 border-gray-500"></div>
 
         {/* Social Icons */}
-        <div className="z-50 rounded-[50%] lg:w-[550px] w-[300px] h-[300px] lg:h-[550px] absolute lg:top-20 top-10 lg:-left-6 -left-1 text-black">
+        <div className="z-40 rounded-[50%] lg:w-[550px] w-[300px] h-[300px] lg:h-[550px] absolute lg:top-20 top-10 lg:-left-6 -left-1 text-black">
           <a
             target={"_blank"}
             rel="noreferrer"
             href={"https://www.facebook.com/dabasishdas.joy/"}
-            className="cursor-pointer border rounded-[50%] p-3 absolute right-8 lg:right-[90px] hover:bg-primary top-0 lg:top-5 bg-gray-400"
+            className="cursor-pointer rounded-[50%] p-3 absolute right-8 lg:right-[90px] hover:bg-primary top-0 lg:top-5 bg-gray-400"
           >
             <ImFacebook></ImFacebook>
           </a>
@@ -26,7 +26,7 @@ const MyImage = () => {
             target={"_blank"}
             rel="noreferrer"
             href={"https://www.facebook.com/dabasishdas.joy/"}
-            className="cursor-pointer border rounded-[50%] p-3 absolute -right-3 top-16 lg:-right-1 lg:top-[150px] bg-gray-400"
+            className="cursor-pointer  rounded-[50%] p-3 absolute -right-3 top-16 lg:-right-1 lg:top-[150px] hover:bg-primary bg-gray-400"
           >
             <ImLinkedin2></ImLinkedin2>
           </a>
@@ -34,7 +34,7 @@ const MyImage = () => {
             target={"_blank"}
             rel="noreferrer"
             href={"https://www.facebook.com/dabasishdas.joy/"}
-            className="cursor-pointer border rounded-[50%] p-3 absolute lg:-right-3 lg:top-[310px] -right-2 top-36 bg-gray-400"
+            className="cursor-pointer  rounded-[50%] p-3 absolute lg:-right-3 lg:top-[310px] -right-2 top-36 hover:bg-primary bg-gray-400"
           >
             <FiGithub></FiGithub>
           </a>
