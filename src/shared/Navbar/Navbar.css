@@ -8,12 +8,12 @@
   transition: background-color 0.5s ease-in-out;
 }
 .nav-item:hover {
-  background-color: #f52225;
+  background-color: #2196f3;
 }
 
 .nav-item:hover .nav-text {
-  max-width: 300px;
-  padding: 0 10px;
+  max-width: 200px;
+  padding: 0 8px;
 }
 
 .menu-bar {

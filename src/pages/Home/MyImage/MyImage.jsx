@@ -18,7 +18,7 @@ const MyImage = () => {
             target={"_blank"}
             rel="noreferrer"
             href={"https://www.facebook.com/dabasishdas.joy/"}
-            className="cursor-pointer rounded-[50%] p-3 absolute right-8 lg:right-[90px] hover:bg-primary top-0 lg:top-5 bg-gray-400"
+            className="social-icon right-10 lg:right-[90px]  top-1 lg:top-5 "
           >
             <ImFacebook></ImFacebook>
           </a>
@@ -26,7 +26,7 @@ const MyImage = () => {
             target={"_blank"}
             rel="noreferrer"
             href={"https://www.facebook.com/dabasishdas.joy/"}
-            className="cursor-pointer  rounded-[50%] p-3 absolute -right-3 top-16 lg:-right-1 lg:top-[150px] hover:bg-primary bg-gray-400"
+            className="social-icon  -right-2 top-16 lg:-right-1 lg:top-[150px]"
           >
             <ImLinkedin2></ImLinkedin2>
           </a>
@@ -34,7 +34,7 @@ const MyImage = () => {
             target={"_blank"}
             rel="noreferrer"
             href={"https://www.facebook.com/dabasishdas.joy/"}
-            className="cursor-pointer  rounded-[50%] p-3 absolute lg:-right-3 lg:top-[310px] -right-2 top-36 hover:bg-primary bg-gray-400"
+            className="social-icon lg:-right-3 lg:top-[310px] -right-2 top-36 "
           >
             <FiGithub></FiGithub>
           </a>
