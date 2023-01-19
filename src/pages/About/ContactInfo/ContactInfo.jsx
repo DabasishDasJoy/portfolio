@@ -6,7 +6,7 @@ import PersonalInfoOption from "../../../components/PersonalInfoOption/PersonalI
 
 const ContactInfo = () => {
   return (
-    <section className="grid lg:grid-cols-2 lg:gap-20 gap-5 my-10">
+    <section className="grid lg:grid-cols-2 lg:gap-20 gap-5 lg:my-10 my-5">
       {/* image */}
       <div data-aos="fade-right" data-aos-duration="1000">
         <img
@@ -24,7 +24,7 @@ const ContactInfo = () => {
       >
         {/* Intro */}
         <div>
-          <h4 className="font-semibold text-2xl leading-10">
+          <h4 className="font-semibold lg:text-2xl text-xl leading-10">
             I am Dabasish Das Joy
           </h4>
           <p>A passionate full stack developer</p>
@@ -42,7 +42,7 @@ const ContactInfo = () => {
 
         {/* Infos */}
         <div>
-          <h5 className="uppercase font-semibold text-md leading-7">
+          <h5 className="font-semibold lg:text-base leading-7">
             Personal Info
           </h5>
           <div className="grid lg:grid-cols-2">
@@ -66,7 +66,7 @@ const ContactInfo = () => {
             </PersonalInfoOption>
           </div>
         </div>
-        <div>
+        <div className="flex justify-center lg:justify-start">
           <ButtonPrimary name={"Resume"}>
             <FaDownload />
           </ButtonPrimary>

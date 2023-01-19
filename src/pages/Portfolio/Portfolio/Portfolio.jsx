@@ -12,9 +12,9 @@ const Portfolio = () => {
   const projects = useLoaderData();
 
   return (
-    <div className="bg-secondary portfolio-wrapper min-h-screen lg:py-10 px-2 py-5 lg:px-20">
+    <div className="bg-secondary portfolio-wrapper min-h-screen section">
       <PageTitle subtitle={"Portfolio"}>My Works</PageTitle>
-      <div className="grid lg:grid-cols-2 gap-5 lg:py-10">
+      <div className="grid lg:grid-cols-3 gap-5">
         {projects.map((project) => (
           <motion.div
             className="project-card"
@@ -37,12 +37,14 @@ const Portfolio = () => {
             className="fixed project-details top-0 bottom-0 left-0 right-0  flex items-center justify-center backdrop-blur-sm bg-accent/50"
           >
             <PortfolioDetailsCard project={selectedProject}>
-              <button
-                className="px-4 py-2 hover:bg-primary border rounded-full"
-                onClick={() => setSelectedId(null)}
-              >
-                X
-              </button>
+              <div className="border rounded-full">
+                <button
+                  className="hover:bg-primary rounded-full px-3 py-1"
+                  onClick={() => setSelectedId(null)}
+                >
+                  x
+                </button>
+              </div>
             </PortfolioDetailsCard>
           </motion.div>
         )}

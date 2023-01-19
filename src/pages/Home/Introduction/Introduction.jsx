@@ -15,17 +15,24 @@ const itemVariants = {
 
 const Introduction = () => {
   return (
-    <motion.div className="text-white">
-      <motion.h3
+    <motion.div className="">
+      <motion.div
         variants={{
           hidden: { opacity: 0, x: -100 },
           visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
         }}
-        className="text-2xl leading-8"
+        className="text-base"
       >
-        Hi, <br /> I am{" "}
-        <span className="text-primary font-bold">Dabsish Das Joy</span>
-      </motion.h3>
+        <p>
+          Hi There,{" "}
+          <span>
+            I am{" "}
+            <span className="text-xl text-primary font-bold">
+              Dabsaish Das Joy
+            </span>
+          </span>
+        </p>
+      </motion.div>
 
       <motion.div variants={itemVariants}>
         <AnimationText></AnimationText>

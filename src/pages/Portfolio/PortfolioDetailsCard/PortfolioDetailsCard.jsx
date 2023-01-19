@@ -26,12 +26,12 @@ const PortfolioDetailsCard = ({
   },
 }) => {
   return (
-    <div className="relative flex flex-col gap-5 text-white lg:p-10 px-2 py-5 overflow-y-auto rounded-md lg:w-[900px] lg:h-[700px] h-[800px] bg-accent">
+    <div className="relative flex flex-col gap-5 lg:m-0 m-2 lg:p-10 px-2 py-5 overflow-y-auto rounded-md lg:w-[900px] lg:h-[700px] h-[600px] bg-accent">
       <div className="absolute top-1 right-1">{children}</div>
 
       {/* heading */}
       <div>
-        <h3 className="text-3xl text-white m-0">{projectTitle}</h3>
+        <h3 className="text-xl text-white m-0">{projectTitle}</h3>
         <h5 className="text-sm">{subtitle}</h5>
       </div>
       <hr className="border-white" />
@@ -94,7 +94,7 @@ const PortfolioDetailsCard = ({
         >
           {images.map((img) => (
             <SwiperSlide className="text-white">
-              <img src={img} alt="" className="h-[500px]" />
+              <img src={img} alt="" className="" />
             </SwiperSlide>
           ))}
         </Swiper>

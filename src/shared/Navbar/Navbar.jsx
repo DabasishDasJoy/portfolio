@@ -19,7 +19,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(true);
   return (
     <div className="fixed flex flex-col items-end justify-center z-50 lg:right-5 lg:left-auto left-0 right-0 top-0 lg:bottom-0">
-      <div className="lg:flex hidden flex-col gap-5 items-end">
+      <div className="lg:flex hidden flex-col gap-5 items-end text-black">
         <NavItem navigate="/" name={"Home"}>
           <FaHome />
         </NavItem>

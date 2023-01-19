@@ -13,12 +13,12 @@ const PortfolioCard = ({
       <img
         src={thumnail}
         alt=""
-        className="blurred zoom block w-full h-full object-cover object-center"
+        className="blurred zoom block w-full object-cover object-center"
       />
       {/* content */}
       <div className="content slide-up fade absolute inset-0">
         <div className="content-items absolute left-7 right-7">
-          <h3 className="text-2xl font-bold">{projectTitle}</h3>
+          <h3 className="text-xl font-bold">{projectTitle}</h3>
           <hr className="title-bar border-white bg-white h-[3px]" />
           <p className="text-md my-2">{subtitle}</p>
         </div>

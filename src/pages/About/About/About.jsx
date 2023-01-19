@@ -7,7 +7,7 @@ import Skills from "../Skills/Skills/Skills";
 
 const About = () => {
   return (
-    <motion.div className="bg-accent min-h-screen lg:px-20 px-2 lg:py-10 py-5">
+    <motion.div className="bg-accent min-h-screen section">
       {/* header */}
 
       <PageTitle subtitle="Resume">About Me</PageTitle>

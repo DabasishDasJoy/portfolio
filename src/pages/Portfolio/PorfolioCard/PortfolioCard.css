@@ -10,11 +10,11 @@
   transition: 200ms ease-in-out;
 }
 .image-wrapper:hover > .content > .content-items {
-  transform: translateY(150%);
+  transform: translateY(100%);
 }
 
 .image-wrapper:hover > .content > .content-items > .title-bar {
-  width: 100%;
+  width: 50%;
 }
 
 .image-wrapper > img,

@@ -9,7 +9,7 @@ const Skill = ({ sk: { title, image } }) => {
       <img
         src={image}
         alt=""
-        className="w-[80px] h-[80px] rounded-full bg-white"
+        className="w-[60px] h-[60px] rounded-full bg-white"
       />
       <p className="text-center font-semibold text-white text-md">{title}</p>
     </div>
