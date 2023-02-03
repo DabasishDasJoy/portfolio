@@ -2,7 +2,7 @@
   {
     "_id": "639882623e29ce6a6ffab51e",
     "projectTitle": "UCritique Reviews",
-    "subtitle": "A personal service website of an individual",
+    "subtitle": "A personal service review website.",
     "description": "An website application where user can find all the services of an individual doctor and give feedback. The website is a signle page application built with MERN stack technologies.",
     "techologies": "HTML5, TailwindCSS, React.js, MongoDB,Node.js, Express.js",
     "preview": "https://ucritique-reviews.web.app/",
@@ -26,7 +26,7 @@
     "projectTitle": "Code Crate",
     "subtitle": "Online Course Service Website",
     "description": "An educational website where user can find online courses and enroll the course. In this digital world distant learning has become more popular. This application will help learners in terms of online education.",
-    "techologies": "HTML5, TailwindCSS, React.js, MongoDB,Node.js, Express.js",
+    "techologies": "HTML5, TailwindCSS, React.js, MongoDB, Node.js, Express.js",
     "preview": "https://code-crate.web.app/",
     "serverSide": "https://github.com/DabasishDasJoy/resales-utopia-server",
     "clientSide": "https://github.com/DabasishDasJoy/code-crate-client",
@@ -63,6 +63,28 @@
       "https://i.ibb.co/4spV1zp/Screenshot-2022-12-13-194148-min.png",
       "https://i.ibb.co/HG7XZfq/Screenshot-2022-12-13-194205-min.png",
       "https://i.ibb.co/Rh289nD/Screenshot-2022-12-13-194228-min.png"
+    ]
+  },
+  {
+    "_id": "639882621eddab0b479112d358c",
+    "projectTitle": "ToriTorkari Bazar",
+    "subtitle": "An online grocery shop",
+    "description": "An online grocery shop where user can shop his/her daily need all in a place together.Here users can manage their own account cart and an place order through a secure payment gateway.",
+    "techologies": "HTML5, TailwindCSS, React.js, MongoDB,Node.js, Express.js, MongoDB",
+    "preview": "https://toritorkari-53e74.web.app/",
+    "serverSide": "https://github.com/DabasishDasJoy/toritorkari-server",
+    "clientSide": "https://github.com/DabasishDasJoy/toritorkari",
+    "features": [
+      "Emphasis on simple, user friendly, dynamic and interactive user interface using React.js.",
+      "Allow users to manage their own account integrated with firebase, dashboard, bills and shoppings.",
+      "A system for tracking and managing items in a customer's cart as they shop on the site Integrated with stripe payment gateways to securely process customer payments."
+    ],
+    "thumnail": "https://res.cloudinary.com/drkcfcrny/image/upload/v1675423492/Projects/Screenshot_2023-02-03_002515_r4bnir.png",
+    "images": [
+      "https://res.cloudinary.com/drkcfcrny/image/upload/v1675423641/Projects/Screenshot_2023-02-03_172646_ehn5yy.png",
+      "https://res.cloudinary.com/drkcfcrny/image/upload/v1675423641/Projects/Screenshot_2023-02-03_172702_ixsv1v.png",
+      "https://res.cloudinary.com/drkcfcrny/image/upload/v1675423639/Projects/Screenshot_2023-02-03_172553_d5y55q.png",
+      "https://res.cloudinary.com/drkcfcrny/image/upload/v1675423704/Projects/Screenshot_2023-02-03_172808_nm7q0b.png"
     ]
   }
 ]
