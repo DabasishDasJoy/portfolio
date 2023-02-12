@@ -46,7 +46,7 @@ const Introduction = () => {
         <a
           rel="noreferrer"
           target={"_blank"}
-          href="https://drive.google.com/file/d/1_6YKqL6PbPJ4cWalHFezTsufF9gbXqC7/view?usp=sharing"
+          href="https://drive.google.com/file/d/1h-2Tz08eZtqPMmMqMWlqoV4wOXuD35-I/view?usp=sharing"
         >
           <ButtonPrimary name={"Resume"}>
             <FaDownload />

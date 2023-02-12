@@ -12,6 +12,8 @@ const AnimationText = () => {
         1000,
         "Web Devloper",
         1000,
+        "Software Engineer",
+        1000,
       ]}
       speed={50} // Custom Speed from 1-99 - Default Speed: 40
       className="text-2xl font-bold lg:my-5 my-2 lg:text-[3rem]"
