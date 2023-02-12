@@ -67,9 +67,15 @@ const ContactInfo = () => {
           </div>
         </div>
         <div className="flex justify-center lg:justify-start">
-          <ButtonPrimary name={"Resume"}>
-            <FaDownload />
-          </ButtonPrimary>
+          <a
+            rel="noreferrer"
+            target={"_blank"}
+            href="https://drive.google.com/file/d/1h-2Tz08eZtqPMmMqMWlqoV4wOXuD35-I/view?usp=sharing"
+          >
+            <ButtonPrimary name={"Resume"}>
+              <FaDownload />
+            </ButtonPrimary>
+          </a>
         </div>
       </div>
     </section>
