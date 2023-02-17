@@ -38,8 +38,8 @@ const Introduction = () => {
         <AnimationText></AnimationText>
       </motion.div>
       <motion.p variants={itemVariants}>
-        I am passionate about building excellent software that improves <br />{" "}
-        the lives of those around me.
+        I am a passionate software engineer dedicated to improving lives through
+        innovative and user-centered solutions.
       </motion.p>
 
       <motion.div variants={itemVariants} className="flex lg:gap-5 gap-5 mt-10">
