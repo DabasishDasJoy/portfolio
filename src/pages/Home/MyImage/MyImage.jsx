@@ -25,7 +25,7 @@ const MyImage = () => {
           <a
             target={"_blank"}
             rel="noreferrer"
-            href={"https://www.facebook.com/dabasishdas.joy/"}
+            href={"https://www.linkedin.com/in/dabasishjoy/"}
             className="social-icon  -right-2 top-16 lg:-right-1 lg:top-[150px]"
           >
             <ImLinkedin2></ImLinkedin2>
@@ -33,7 +33,7 @@ const MyImage = () => {
           <a
             target={"_blank"}
             rel="noreferrer"
-            href={"https://www.facebook.com/dabasishdas.joy/"}
+            href={"https://github.com/DabasishDasJoy"}
             className="social-icon lg:-right-3 lg:top-[310px] -right-2 top-36 "
           >
             <FiGithub></FiGithub>
